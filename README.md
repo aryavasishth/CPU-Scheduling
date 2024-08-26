@@ -29,7 +29,8 @@ An implementation of various CPU scheduling algorithms in C++. The algorithms in
 - This algorithm can be beneficial in situations where the objective is to minimize the average waiting time for processes, since shorter processes will be executed first, and thus will spend less time waiting in the queue. However, it can lead to longer running processes being blocked by shorter ones, which can negatively impact the overall performance of the system.
 
 - In summary, SJF is a scheduling algorithm that prioritizes the execution of processes based on their burst time, it's non-preemptive and it's commonly used in situations where the objective is to minimize the average waiting time for processes.
-### Shortest Remaining Time First(SRTF)
+  
+### Shortest Remaining Time First (SRTF)
 - Shortest Remaining Time First (SRTF) is a scheduling algorithm that is similar to the Shortest Job First (SJF) algorithm, but it is a preemptive algorithm. This means that once a process starts executing, it can be interrupted by a new process with a shorter remaining time.
 
 - The algorithm maintains a queue of processes, where each process is given a burst time when it arrives. The process with the shortest remaining time is executed first, and as new processes arrive, they are added to the queue and sorted based on their remaining time. The process with the shortest remaining time will always be at the front of the queue, and thus will always be executed next.
