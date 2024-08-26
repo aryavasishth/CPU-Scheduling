@@ -7,7 +7,7 @@ An implementation of various CPU scheduling algorithms in C++. The algorithms in
     - [First Come First Serve (FCFS)](#first-come-first-serve-fcfs)
     - [Round Robin with varying time quantum (RR)](#round-robin-with-varying-time-quantum-rr)
     - [Shortest Job First (SJF)](#shortest-job-first-sjf)
-    - [Shortest Remaining Time First(SRTF)](#shortest-remaining-time-first-srtf)
+    - [Shortest Remaining Time First (SRTF)](#shortest-remaining-time-first-srtf)
     - [Priority Schedulling](#priority-schedulling)
 ## Algorithms
 
